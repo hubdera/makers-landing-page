@@ -1,0 +1,243 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #080c20;  
+    font-family: "manrope", sans-serif;
+}
+nav{
+    width: 100%;
+    height: 100px;
+    /* text-align: center; */
+    padding: 30px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    display: block;
+}
+.logo{
+    text-align: left;
+    height: 100px;
+    padding: 30px;
+}
+.top{
+    height: 100%;
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: space-between; 
+    align-items: center;
+
+}
+#hero-inside{
+    width: 100%;
+    padding: 20px 35px;
+    text-align: center;
+}
+h2{
+    font-size: 30px;
+    padding-inline: 27px;
+    margin-bottom: 15px;
+    display: block;
+    color: aliceblue;
+}
+p {   
+    font-size: 13px;
+    opacity: 0.4;
+    line-height: 20px;
+    color: white;
+}
+h1{
+    color: white;
+}
+#scroll-icon {
+    width: 100%;
+    text-align: center;
+}
+
+.left-panel{
+    display: none;
+}
+.right-panel{
+    display: none;
+}
+img {
+    overflow-clip-margin: content-box;
+    overflow: clip;
+}
+#features-container {
+    /* flex-direction: row; */
+    height: 310px;
+    width: 75%;
+    margin: 150px auto 0px auto;
+    /* margin: 100px 0px 0px 0px; */
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: space-between;
+}
+.feature {
+    flex-direction: column;
+    align-items: start;
+    margin: 0px;
+    padding: 0px;
+    width: 155px;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+.feature-icon-container {
+    background-color: #045381;
+    border-radius: 50px;
+    height: 140px;
+    width: 140px;
+    margin-inline: auto;
+    margin-bottom: 20px;
+    padding: 20px 10px;
+}
+.feature-text {
+    width: 100%;
+    margin-top: 25px;
+    text-align: left;
+}
+.feature p, #pricing-plans-text p {
+    padding-top: 5px;
+}
+p {
+    font-size: 13px;
+    opacity: 0.4;
+    line-height: 20px;
+}
+.feature:nth-child(even) {
+    align-self: end;
+}
+.pricing{
+    width: 35%;
+    margin-inline: auto;
+    text-align: center;
+    margin: 120px auto 35px auto;
+}
+#prices {
+    display: flex;
+    flex-direction: row;
+    /* justify-content: space-between; */
+    align-items: center;
+    height: auto;
+    width: 63%;
+    margin-inline: auto;
+    padding-inline: 35px;
+}
+.pricing-container {
+    width: 370px;
+    position: relative;
+    padding-top: 23px;
+}
+.pricing-icon {
+    position: absolute;
+    top: 0px;
+    left: 25px;
+}
+.free-plan {
+    background-color: #045381;
+    padding: 45px 35px 20px 25px;
+    border-radius: 5px;
+}
+.payment-plan h4 {
+    margin-bottom: 20px;
+}
+h4 {
+    display: block;
+    margin-block-start: 1.33em;
+    margin-block-end: 1.33em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    color: white;
+}
+p {
+    font-size: 13px;
+    opacity: 0.4;
+    line-height: 20px;
+}
+h1 {
+    margin: 20px 0;
+    font-weight: 700;
+}
+ul {
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+li {
+    list-style-type: none;
+    font-size: 13px;
+    padding-bottom: 10px;
+}
+.paid-plan {
+    background-color: #3ee9e5;
+    color: #080c20;
+    padding: 60px 30px 20px 25px;
+}
+.paid-plan h1 {
+    font-weight: 800;
+}
+footer {
+    width: auto;
+    height: 185px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-size: 100%;
+    margin-top: 85px;
+    margin-bottom: 70px;
+}
+.footer-squiggle{
+    position:absolute;
+    width: 70%;
+    overflow: hidden;
+}
+#sign-up-text {
+    width: 100%;
+    background-size: contain;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 10px 90px;
+    color: white;
+}
+#sign-up-form {
+    padding-inline: 25px;
+    height: 90px;
+    width: 40%;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.form-item {
+    width: 100%;
+    border: none;
+    border-radius: 20px;
+    padding: 10px 10px;
+}
+input[type="email"] {
+    width: 260px;
+    background-color: #045381;
+    color: white;
+    outline: none;
+}
+.btn {
+    width: 115px;
+}
+button {
+    text-align: center;
+    background-color: #3ee9e5;
+    color: #080c20;
+    font-weight: 700;
+}
